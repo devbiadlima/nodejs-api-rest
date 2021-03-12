@@ -1,11 +1,11 @@
 const mysql = require("mysql");
 
-const conexao = mysql.createConnection({
-  host: localhost,
+const conexao = mysql.crateConnection({
+  host: "localhost",
   port: 3307,
   user: "root",
   password: "admin",
-  datebase: "agenda-petshop",
+  database: "agenda-petshop",
 });
 
 module.exports = conexao;
